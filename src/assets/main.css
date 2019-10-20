@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2&display=swap');
+
+html {
+  background-color: #f7f7f7;  
+  font-weight: 700;
+}
+body{
+font-family: 'Comfortaa';
+}
+h2{
+  font-family: 'Exo 2';
+  font-size: 1.85rem;
+  text-align: center;
+  color: white;
+}
+input{
+  margin-bottom: 15px;
+  border: 1px solid #a9a9a9;
+  border-radius: 3px;
+  outline-color: #d29606;
+  height: 40px;
+  width: 100%;
+}
+.btn-primary{
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #e8441b!important;
+  width: 100%;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  cursor: pointer;
+  border-color: #e8441b!important;
+}
+.btn-outline-primary{
+  color: #e8441b;
+  border-color: #c73b18;
+  width: 100%;
+  max-width: 260px;
+}
+.btn-outline-primary:hover{
+  border-color: #c73b18!important;
+  color: #000;
+}
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(199,59,24,.5)!important;
+}
+button:hover{
+background-color: #c73b18!important;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(199,59,24)!important;
+}
+.justify-content-center
+{
+    justify-content: center!important;
+}
+.vh-100{
+  height: 100vh!important;
+  }
+.align-items-center{
+  align-items: center!important;
+}
+.d-flex{
+  display: flex!important;
+}
+.auth-form, .wizard-form{
+      width: 100%;
+      max-width: 400px;
+  }
+.mb-3, .my-3{
+      margin-bottom: 3rem!important;
+  }
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.form-row>.col, .form-row>[class*=col-] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.form-group {
+  margin-bottom: 0.75rem;
+}
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fddb96;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(251,176,24,.25); 
+}
+.invalid-feedback {
+  font-size: 80%;
+  color: #ea1f26;
+}
+.form-control.is-invalid{
+  background-size: 0
+}
+.ag-logo{
+  width: 300px;
+  height: 92px;
+  object-fit: contain;
+}
+.view {
+  overflow: hidden;
+  cursor: default;
+}
+.bg-i{
+  background-image: url(https://images.wallpaperscraft.com/image/buildings_city_bw_118586_1366x768.jpg);
+}
+.form-label{
+  color: white;
+  padding-bottom: 0.35rem;
+}
+.navbar-custom {
+  background-color: #e8441b;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255,255,255,.8);
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+.mt-7-hf{
+  margin-top: 7rem!important;
+}
+.mb-1-hf{
+  margin-bottom: 1rem;
+}
+.help-text{
+  text-indent: 35.45pt;
+  margin-top: 1rem;
+  text-align: justify;
+}
+.result-text{
+  text-indent: 35.45pt;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3em;
+}
+.main-text{
+  text-align: center;
+}
+.text-center{
+  text-align: center;
+}
+.mt-18-hf{
+  margin-top: 18rem!important;
+}
+.mb-2-hf{
+  margin-bottom: 2rem!important;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
