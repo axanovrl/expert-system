@@ -2,13 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Form } from "react-bootstrap";
 
-const FieldInput = ({ input, label, meta }) => (
+const FieldInput = ({ input, label, meta, type }) => (
   <Form.Group>
     {label && <Form.Label>{label}</Form.Label>}
     <Form.Control
       isInvalid={meta.touched && meta.error}
       as="input"
       {...input}
+      type={type}
     />
     {meta.touched &&
       (meta.error && (
